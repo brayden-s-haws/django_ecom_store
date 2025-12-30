@@ -16,6 +16,9 @@ class Product(models.Model):
 
 class Order(models.Model):
 
+    def __str__(self):
+        return f"Order ID {self.id}"
+
     items = models.CharField(max_length=1000)
     total = models.CharField(max_length=200)
     name = models.CharField(max_length=200)
