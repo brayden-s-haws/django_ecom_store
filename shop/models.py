@@ -17,6 +17,7 @@ class Product(models.Model):
 class Order(models.Model):
 
     items = models.CharField(max_length=1000)
+    total = models.CharField(max_length=200)
     name = models.CharField(max_length=200)
     email = models.CharField(max_length=200)
     address = models.CharField(max_length=200)
