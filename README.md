@@ -30,7 +30,7 @@ This is an e-commerce store application built as a project in the [Python and Dj
 **Framework & Core Technologies**:
 - **Django 6.0**: Full-stack web framework
 - **SQLite**: Database for products and orders
-- **Python 3.x**: Backend programming language
+- **Python 3.13**: Backend programming language
 
 **Frontend**:
 - **Bootstrap**: Responsive CSS framework for UI components
